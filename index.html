@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A 1</title>
+    <title>A 2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,9 +13,15 @@
     <button class='ans' onclick='output(this.textContent)'></button>
     <button class='ans' onclick='output(this.textContent)'></button>
     <button class='ans' onclick='output(this.textContent)'></button>
-    <br>
-    Correct: <div id="counter"></div>
+    <div id='table' style='display:none'><img src="table.jpeg" alt=""></div>
+    <br>Correct: <div id="counter"></div>
     Wrong: <div id="wrong"></div>
+    <input type="checkbox" id="" checked onclick='irreg = Number(event.currentTarget.checked)' title='120, 135, 150 и др. значения'> Нестандартные значения
+    <input type="checkbox" id="" checked onclick='radiancheck = Number(event.currentTarget.checked)' title='Отображения в радианах'> Пикачу
+    <input type="checkbox" id="" checked onclick='tgctgcheck = Number(event.currentTarget.checked)' title='Тангенсы/Котангенсы'> Тангенсы и котангенсы
+    <!-- ЪЪЪ Долго <input type="checkbox" id="" checked onclick='reverse = Number(event.currentTarget.checked)' title='Обратные задачи'> Обратные задачи -->
+    <input type="checkbox" id="" onclick='displaytable(event.currentTarget.checked)' title='Показать таблицу'> Показать таблицу
+    
 </body>
 <script src="index.js"></script> 
 </html>

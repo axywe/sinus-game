@@ -2,10 +2,10 @@ body{
     text-align: center;
     
 }
-.cookie{
-    background-color: #444;
-    color: white;
-    margin-bottom: 10px;
+img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
 }
 #function{
     border: 1px solid red;
