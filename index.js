@@ -142,11 +142,11 @@ var output = (answer) => {
         document.querySelector('#counter').innerHTML = correct;
     } else if (answer == undefined) {
         document.querySelector('#counter').innerHTML = correct;
-        document.querySelector('#wrong').innerHTML = wrong;
+        document.querySelector('#wrongcount').innerHTML = wrong;
     }
     else {
         wrong++
-        document.querySelector('#wrong').innerHTML = wrong;
+        document.querySelector('#wrongcount').innerHTML = wrong;
     }
     var res = generator();
     if (radiancheck == 1) {
